@@ -1,11 +1,13 @@
 package powerpackage;
+import java.lang.Math;
+public class Power {
 
-public class powerfinder {
-    public static int OF(int xyz, int pqr) {
-        int p = 1;
-        for (int i = 0; i<pqr; i++) {
-            p *= xyz;
-        }
-        return p;
+    public double OF(double x, double y)
+    {
+
+        return Math.pow(x,y);
+
     }
+
+
 }
