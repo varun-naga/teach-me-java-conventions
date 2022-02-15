@@ -1,6 +1,6 @@
 package powerpackage;
 import java.lang.Math;
-public class Power {
+public class powerfinder{
 
     public double OF(double x, double y)
     {
